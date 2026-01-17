@@ -13,7 +13,6 @@ services:
       - GENERATE_SETTINGS=false
       - PUID=1000
       - PGID=1000
-      - GENERATE_SETTINGS=true
       - SERVER_NAME=PimmelServer
       - SERVER_PASSWORD=Pimmel
       - ADMIN_PASSWORD=Foobar1!

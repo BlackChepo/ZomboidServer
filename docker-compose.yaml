@@ -9,6 +9,7 @@ services:
       - 16262:16262/udp
       - 27015:27015/tcp
     environment:
+      - AUTO_CREATE_USER_IN_WHITE_LIST=true
       - GENERATE_SETTINGS=false
       - PUID=1000
       - PGID=1000

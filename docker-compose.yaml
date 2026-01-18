@@ -14,8 +14,10 @@ services:
       - PUID=1000
       - PGID=1000
       - SERVER_NAME=PimmelServer
-      - SERVER_PASSWORD=Pimmel
-      - ADMIN_PASSWORD=Foobar1!
+      - SERVER_PASSWORD=
+      - RCON_PASSWORD=
+      - ADMIN_USERNAME=
+      - ADMIN_PASSWORD=
       - STEAM_VAC=true
       - SERVER_WELCOME_MESSAGE=Penis
       - MODS=2875848298;1299328280;2553809727;2901962885
